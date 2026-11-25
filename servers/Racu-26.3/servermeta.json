@@ -1,0 +1,35 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/Racu/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Racu (Minecraft 26.3)",
+    "description": "Minecraft 26.3 (Fabric v0.20.1)",
+    "icon": "https://github.com/mchdistro/Racu/raw/main/server-icon.png",
+    "address": "mc.gotiger.dev:20210",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": ">=21.0.0",
+      "suggestedMajor": 21,
+      "distribution": "TEMURIN",
+      "ram": {
+        "minimum": 4096,
+        "recommended": 8192
+      }
+    }
+  },
+  "fabric": {
+    "version": "0.20.1"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": ["options.txt"]
+    }
+  ]
+}
