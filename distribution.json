@@ -133,6 +133,27 @@
             "url": "https://github.com/mchdistro/Racu/raw/main/servers/Racu-26.3/fabricmods/required/koreanify-fabric-0.2.0+mc26.3.jar",
             "MD5": "2cf599852581ec2367d4c4f014e9e0aa"
           }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 221,
+            "url": "https://github.com/mchdistro/Racu/raw/main/servers/Racu-26.3/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 82,
+            "url": "https://github.com/mchdistro/Racu/raw/main/servers/Racu-26.3/files/servers.dat",
+            "MD5": "216a1fc353bff2c281cc88927c1293ac",
+            "path": "servers.dat"
+          }
         }
       ]
     }
