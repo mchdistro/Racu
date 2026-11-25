@@ -14,8 +14,8 @@
     "mainServer": true,
     "autoconnect": true,
     "javaOptions": {
-      "supported": ">=21.0.0",
-      "suggestedMajor": 21,
+      "supported": ">=25.0.0",
+      "suggestedMajor": 25,
       "distribution": "TEMURIN",
       "ram": {
         "minimum": 4096,
